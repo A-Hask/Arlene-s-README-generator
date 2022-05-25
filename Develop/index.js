@@ -50,8 +50,7 @@ const questions = () => {
             name: 'licenses',
             message: 'Choose your license(s).',
             choices: ['None', 'MIT'],
-        },
-
+        }
     ])
 };
 
