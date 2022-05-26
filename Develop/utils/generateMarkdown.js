@@ -13,16 +13,16 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === 'Apache License 2.0') {
-    return '![License: Apache](https://www.apache.org/foundation/press/kit/feather.png)'
+    return '![License: Apache](https://opensource.org/licenses/Apache-2.0)'
   }
   if (license === 'MIT License') {
-    return '![License: MIT License](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/1200px-MIT_logo.svg.png)'
+    return '![License: MIT License](https://opensource.org/licenses/MIT)'
   }
   if (license === 'BSD 3-Clause License') {
-    return '![License: BSD 3-Clause NEW or REVISED License](https://opensource.org/files/OSI_Approved_License.png)'
+    return '![License: BSD 3-Clause NEW or REVISED License](https://opensource.org/licenses/BSD-3-Clause)'
   }
   if (license === 'Mozilla Public License 2.0') {
-    return '![License: Mozilla Public License 2.0](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Mozilla_logo.svg/400px-Mozilla_logo.svg.png)'
+    return '![License: Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0)'
   }
   else {
     return ``
