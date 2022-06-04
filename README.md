@@ -4,13 +4,13 @@ https://drive.google.com/file/d/16Khnaoq09rdC9L0vptM7O1Hr3cNzzvs3/view?usp=shari
   <br>
   ________________________________________
   <br>
-  ##Description##
+  #Description
   <br>
   This project dynamically creates a README file using user input.
   <br>
   ________________________________________
   <br>
-  ##Table of Contents
+  #Table of Contents
   <br>
   *Installation Instructions
   <br>
@@ -22,31 +22,31 @@ https://drive.google.com/file/d/16Khnaoq09rdC9L0vptM7O1Hr3cNzzvs3/view?usp=shari
   <br>
   ________________________________________
   <br>
-  ##Installation Instructions
+  #Installation Instructions
   <br>
   Go to the GitHub link and clone the code.
   <br>
   ________________________________________
   <br>
-  ##Usage Information
+  #Usage Information
   <br>
   This project is used by answering the questions prompted in the command line
   <br>
   ________________________________________
   <br>
-  ##Contribution Guidelines
+  #Contribution Guidelines
   <br>
   N/A
   <br>
   ________________________________________
   <br>
-  ##Test Instructions
+  #Test Instructions
   <br>
   N/A
   <br>
   ________________________________________
   <br>
-  ##License(s): 
+  #License(s): 
       This project is licensed through None.
       
   <br>
