@@ -13,16 +13,16 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === 'Apache License 2.0') {
-    return '![License: Apache](https://opensource.org/licenses/Apache-2.0)'
+    return '[License: Apache](https://opensource.org/licenses/Apache-2.0)'
   }
   if (license === 'MIT License') {
-    return '![License: MIT License](https://opensource.org/licenses/MIT)'
+    return '[License: MIT License](https://opensource.org/licenses/MIT)'
   }
   if (license === 'BSD 3-Clause License') {
-    return '![License: BSD 3-Clause NEW or REVISED License](https://opensource.org/licenses/BSD-3-Clause)'
+    return '[License: BSD 3-Clause NEW or REVISED License](https://opensource.org/licenses/BSD-3-Clause)'
   }
   if (license === 'Mozilla Public License 2.0') {
-    return '![License: Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0)'
+    return '[License: Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0)'
   }
   else {
     return ``
@@ -33,7 +33,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== 'none') {
-    return `##License(s)
+    return `##License(s): 
       This project is licensed through ${license}.
       `
   }
@@ -45,24 +45,56 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  ##Description 
+  <br>
+  ________________________________________
+  <br>
+  #Description
+  <br>
   ${data.description}
-  ##Table of Contents
+  <br>
+  ________________________________________
+  <br>
+  #Table of Contents
+  <br>
   *Installation Instructions
+  <br>
   *Usage Information
+  <br>
   *Contribution Guidelines
+  <br>
   *Test Instructions
-  ##Installation Instructions
+  <br>
+  ________________________________________
+  <br>
+  #Installation Instructions
+  <br>
   ${data.installation}
-  ##Usage Information
+  <br>
+  ________________________________________
+  <br>
+  #Usage Information
+  <br>
   ${data.usage}
-  ##Contribution Guidelines
+  <br>
+  ________________________________________
+  <br>
+  #Contribution Guidelines
+  <br>
   ${data.contribution}
-  ##Test Instructions
+  <br>
+  ________________________________________
+  <br>
+  #Test Instructions
+  <br>
   ${data.tests}
+  <br>
+  ________________________________________
+  <br>
   ${renderLicenseSection(data.licenses)}
+  <br>
   ${renderLicenseBadge(data.licenses)}
-  ${renderLicenseLink(data.licencses)}
+  <br>
+  ${renderLicenseLink(data.licenses)}
 `;
 }
 
