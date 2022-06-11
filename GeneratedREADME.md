@@ -1,15 +1,15 @@
-## Arlene's README Generator
+## 22222
 
-  ## Created by: Arlene
+  ## Created by: 22222
 
-  ## Github: A-Hask
+  ## Github: 22222
 
-  ## Email: ahaskins93@yahoo.com
+  ## Email: 22222
   ________________________________________
   
   ## Description
   
-  This project dynamically creates a README file from user input.
+  22222
   
   ________________________________________
   
@@ -29,25 +29,25 @@
 
   ## Installation Instructions
 
-  Clone the code from the GitHub repository and use.
+  22222
 
   ________________________________________
 
   ## Usage Information
 
-  Answer the questions provided in the command line
+  22222
 
   ________________________________________
 
   ## Contribution Guidelines
 
-  N/A
+  
 
   ________________________________________
 
   ## Test Instructions
 
-  N/A
+  
 
   ________________________________________
   ## License or Licenses
