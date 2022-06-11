@@ -20,6 +20,18 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'email',
+        message: 'What is your email? (Required)',
+        validate: async (input) => {
+            if (input.length < 3) {
+                console.log(' <-- Name must have at least 4 characters');
+                return false;
+            }
+            return true;
+        }
+    },
+    {
+        type: 'input',
         name: 'username',
         message: 'What is your GitHub username? (Required)',
         validate: async (input) => {

@@ -50,6 +50,8 @@ function generateMarkdown(data) {
   <br>
   Github: ${username}
   <br>
+  Email: ${email}
+  <br>
   ________________________________________
   <br>
   #Description
@@ -60,13 +62,13 @@ function generateMarkdown(data) {
   <br>
   #Table of Contents
   <br>
-  *Installation Instructions
+  <a href= >*Installation Instructions<a>
   <br>
-  *Usage Information
+  <a href= >*Usage Information<a>
   <br>
-  *Contribution Guidelines
+  <a href= >*Contribution Guidelines<a>
   <br>
-  *Test Instructions
+  <a href= >*Test Instructions<a>
   <br>
   ________________________________________
   <br>
