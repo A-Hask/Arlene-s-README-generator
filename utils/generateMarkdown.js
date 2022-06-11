@@ -46,6 +46,10 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
   <br>
+  #Created by: ${data.name}
+  <br>
+  Github: ${username}
+  <br>
   ________________________________________
   <br>
   #Description
