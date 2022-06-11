@@ -33,7 +33,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== 'none') {
-    return `##License(s): 
+    return `
       This project is licensed through ${license}.
       `
   }
@@ -44,62 +44,64 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
-  <br>
-  #Created by: ${data.name}
-  <br>
-  Github: ${username}
-  <br>
-  Email: ${email}
-  <br>
+  return `## ${data.title}
+
+  ## Created by: ${data.name}
+
+  ## Github: ${data.username}
+
+  ## Email: ${data.email}
   ________________________________________
-  <br>
-  #Description
-  <br>
+  
+  ## Description
+  
   ${data.description}
-  <br>
+  
   ________________________________________
-  <br>
-  #Table of Contents
-  <br>
-  <a href= >*Installation Instructions<a>
-  <br>
-  <a href= >*Usage Information<a>
-  <br>
-  <a href= >*Contribution Guidelines<a>
-  <br>
-  <a href= >*Test Instructions<a>
-  <br>
+  
+  ## Table of Contents
+  
+  * [Installation Instructions](#installation-instructions)
+
+  * [Usage Information](#usage-information)
+
+  * [Contribution Guidelines](#contribution-guidelines)
+
+  * [Test Instructions](#test-instructions)
+
+  * [License or Licenses](#license-or-licenses)
+
   ________________________________________
-  <br>
-  #Installation Instructions
-  <br>
+
+  ## Installation Instructions
+
   ${data.installation}
-  <br>
+
   ________________________________________
-  <br>
-  #Usage Information
-  <br>
+
+  ## Usage Information
+
   ${data.usage}
-  <br>
+
   ________________________________________
-  <br>
-  #Contribution Guidelines
-  <br>
+
+  ## Contribution Guidelines
+
   ${data.contribution}
-  <br>
+
   ________________________________________
-  <br>
-  #Test Instructions
-  <br>
+
+  ## Test Instructions
+
   ${data.tests}
-  <br>
+
   ________________________________________
-  <br>
+  ## License or Licenses
+
   ${renderLicenseSection(data.licenses)}
-  <br>
+
   ${renderLicenseBadge(data.licenses)}
-  <br>
+
   ${renderLicenseLink(data.licenses)}
 `;
 }
