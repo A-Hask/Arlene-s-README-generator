@@ -1,15 +1,15 @@
-## laksjdhfiluhkasdf
+## Arlene's README Generator
 
-  ## Created by: lkajdfh
+  ## Created by: Arlene
 
-  ## Github: aliksdhlfkuh
+  ## Github: A-Hask
 
-  ## Email: lakhsdlifuhk
+  ## Email: ahaskins93@yahoo.com
   ________________________________________
   
   ## Description
   
-  aliskudgjfjklahsdlfk
+  This project dynamically creates a README file from user input.
   
   ________________________________________
   
@@ -29,25 +29,25 @@
 
   ## Installation Instructions
 
-  ialuksjgfjklahrisdulfh
+  Clone the code from the GitHub repository and use.
 
   ________________________________________
 
   ## Usage Information
 
-  aiuwlesdglvjhapsdhf
+  Answer the questions provided in the command line
 
   ________________________________________
 
   ## Contribution Guidelines
 
-  
+  N/A
 
   ________________________________________
 
   ## Test Instructions
 
-  
+  N/A
 
   ________________________________________
   ## License or Licenses
