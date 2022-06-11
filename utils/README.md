@@ -1,53 +1,61 @@
-# Professional README Generator
-  <br>
+## Arlene's README Generator
+
+  ## Created by: Arlene
+
+  ## Github: A-Hask
+
+  ## Email: ahaskins93@yahoo.com
   ________________________________________
-  <br>
-  #Description
-  <br>
-  This project dynamically creates a README file using user input.
-  <br>
+  
+  ## Description
+  
+  This project dynamically creates a README file from user input.
+  
   ________________________________________
-  <br>
-  #Table of Contents
-  <br>
-  *Installation Instructions
-  <br>
-  *Usage Information
-  <br>
-  *Contribution Guidelines
-  <br>
-  *Test Instructions
-  <br>
+  
+  ## Table of Contents
+  
+  * [Installation Instructions](#installation-instructions)
+
+  * [Usage Information](#usage-information)
+
+  * [Contribution Guidelines](#contribution-guidelines)
+
+  * [Test Instructions](#test-instructions)
+
+  * [License or Licenses](#license-or-licenses)
+
   ________________________________________
-  <br>
-  #Installation Instructions
-  <br>
-  Go to the GitHub link and clone the code.
-  <br>
+
+  ## Installation Instructions
+
+  Clone the code from the GitHub repository and use.
+
   ________________________________________
-  <br>
-  #Usage Information
-  <br>
-  This project is used by answering the questions prompted in the command line
-  <br>
+
+  ## Usage Information
+
+  Answer the questions provided in the command line
+
   ________________________________________
-  <br>
-  #Contribution Guidelines
-  <br>
+
+  ## Contribution Guidelines
+
   N/A
-  <br>
+
   ________________________________________
-  <br>
-  #Test Instructions
-  <br>
+
+  ## Test Instructions
+
   N/A
-  <br>
+
   ________________________________________
-  <br>
-  #License(s): 
+  ## License or Licenses
+
+  
       This project is licensed through None.
       
-  <br>
+
    ![GitHub License](https://img.shields.io/badge/license-None-blue.svg)
-  <br>
+
   
