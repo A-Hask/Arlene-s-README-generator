@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const path = require('path');
+const emailValidator = require('email-validator');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
@@ -11,7 +12,7 @@ const questions = [
         name: 'name',
         message: 'What is your name? (Required)',
         validate: async (input) => {
-            if (input.length < 3) {
+            if (input.length < 4) {
                 console.log(' <-- Name must have at least 4 characters');
                 return false;
             }
@@ -22,12 +23,8 @@ const questions = [
         type: 'input',
         name: 'email',
         message: 'What is your email? (Required)',
-        validate: async (input) => {
-            if (input.length < 3) {
-                console.log(' <-- Name must have at least 4 characters');
-                return false;
-            }
-            return true;
+        validate: async (email) => {
+            return emailValidator.validate(email)
         }
     },
     {
@@ -35,7 +32,7 @@ const questions = [
         name: 'username',
         message: 'What is your GitHub username? (Required)',
         validate: async (input) => {
-            if (input.length < 3) {
+            if (input.length < 4) {
                 console.log(' <-- Username must have at least 4 characters');
                 return false;
             }
@@ -47,7 +44,7 @@ const questions = [
         name: 'title',
         message: 'What is the title of your project? (Required)',
         validate: async (input) => {
-            if (input.length < 3) {
+            if (input.length < 4) {
                 console.log(' <-- Title must have at least 4 characters');
                 return false;
             }
@@ -59,7 +56,7 @@ const questions = [
         name: 'description',
         message: 'Describe your project. (Required)',
         validate: async (input) => {
-            if (input.length < 3) {
+            if (input.length < 4) {
                 console.log(' <-- Description must have at least 4 characters');
                 return false;
             }
@@ -71,7 +68,7 @@ const questions = [
         name: 'installation',
         message: 'Provide installation instructions. (Required)',
         validate: async (input) => {
-            if (input.length < 3) {
+            if (input.length < 4) {
                 console.log(' <-- Input must have at least 4 characters');
                 return false;
             }
@@ -83,7 +80,7 @@ const questions = [
         name: 'usage',
         message: 'How is your project used? (Required)',
         validate: async (input) => {
-            if (input.length < 3) {
+            if (input.length < 4) {
                 console.log(' <-- Input must have at least 4 characters');
                 return false;
             }
