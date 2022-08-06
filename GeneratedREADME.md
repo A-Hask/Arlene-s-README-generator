@@ -1,15 +1,15 @@
 ## Arlene's README Generator
 
-  ## Created by: Arlene
+  ## Created by: Arlene Haskins
 
   ## Github: A-Hask
 
-  ## Email: ahaskins@yahoo.com
+  ## Email: ahask93@gmail.com
   ________________________________________
   
   ## Description
   
-  This application allows the user to dynamically create a README file by answering prompts in the command line
+  This project dynamically creates a README.md file from user input.
   
   ________________________________________
   
@@ -29,13 +29,13 @@
 
   ## Installation Instructions
 
-  Clone the code from GitHub and enter "node index" in the command line
+  Clone the code from GitHub. Enter "node index.js" in the command line to start.
 
   ________________________________________
 
   ## Usage Information
 
-  Answer the prompts
+  Answer the questions prompted in the command line.
 
   ________________________________________
 
