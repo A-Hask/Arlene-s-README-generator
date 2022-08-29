@@ -1,4 +1,4 @@
-## Arlene's README Generator
+## Find-A-Book
 
   ## Created by: Arlene Haskins
 
@@ -9,7 +9,7 @@
   
   ## Description
   
-  This project dynamically creates a README.md file from user input.
+  This app is used to find books and add them to a list.
   
   ________________________________________
   
@@ -29,13 +29,13 @@
 
   ## Installation Instructions
 
-  Clone the code from GitHub. Enter "node index.js" in the command line to start.
+  Click the heroku link and sign up to use the app.
 
   ________________________________________
 
   ## Usage Information
 
-  Answer the questions prompted in the command line.
+  Once the user is signed up, they can log in and add books to their list. When they no longer need the book in their list, the book can be removed from the list.
 
   ________________________________________
 
@@ -47,7 +47,7 @@
 
   ## Test Instructions
 
-  N/A
+  N/
 
   ________________________________________
   ## License or Licenses
